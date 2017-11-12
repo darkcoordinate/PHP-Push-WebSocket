@@ -18,8 +18,8 @@
 
 error_reporting(E_ALL);
 
-require_once __DIR__ . '/src/autoload.php'; // Autoload files using Composer autoload
-
+require_once __DIR__ . '/src/PushWebSocket/Server.php'; // Autoload files using Composer autoload
+require_once __DIR__ . '/src/PushWebSocket/Client.php';
 set_time_limit(0);
 
 // variables
